@@ -1,5 +1,5 @@
 # Automated AI Market Intelligence Pipeline
-
+GitHub repository: https://github.com/suman-gogula/market-intelligence-pipeline
 A Python/pandas data-engineering project that ingests job-market data, validates and cleans it, removes duplicates, extracts technical skills, stores everything in a SQL database (SQLite locally, PostgreSQL-compatible), and exports analytics for a Power BI dashboard. An optional Gemini step adds job categories and one-line summaries.
 
 > **Data honesty:** the bundled dataset is **synthetic** (`data_origin = sample`). Live records can only enter through an explicit command and are labelled `live`. Nothing in this repository is a real job listing.
