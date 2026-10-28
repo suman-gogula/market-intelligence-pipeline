@@ -1,0 +1,5 @@
+# Optional: only needed when DATABASE_URL points at PostgreSQL.
+# NOT exercised by the automated tests (no PostgreSQL server was available when this
+# project was packaged), so treat the PostgreSQL path as unverified until you try it.
+-r requirements.txt
+psycopg[binary]>=3.2,<4

@@ -1,0 +1,65 @@
+data_origin,skill,salary_currency,postings_with_salary,avg_annual_midpoint
+sample,CI/CD,CAD,3,123500.0
+sample,Docker,CAD,3,120533.0
+sample,AWS,CAD,4,116000.0
+sample,Kubernetes,CAD,3,111833.0
+sample,Python,CAD,3,106333.0
+sample,JavaScript,CAD,3,98300.0
+sample,Azure,CAD,4,94575.0
+sample,SQL,CAD,3,86467.0
+sample,SQL Server,CAD,3,86467.0
+sample,SQL,EUR,5,90900.0
+sample,SQL Server,EUR,3,89067.0
+sample,Java,EUR,7,83729.0
+sample,.NET,EUR,5,81620.0
+sample,C#,EUR,5,81620.0
+sample,Django,EUR,3,80000.0
+sample,C++,EUR,4,79925.0
+sample,REST API,EUR,8,78513.0
+sample,Git,EUR,11,75600.0
+sample,Docker,EUR,13,75192.0
+sample,CI/CD,EUR,4,71625.0
+sample,Azure,EUR,5,71100.0
+sample,AWS,EUR,5,70880.0
+sample,Kubernetes,EUR,7,69714.0
+sample,Python,EUR,7,69014.0
+sample,JavaScript,EUR,8,68138.0
+sample,GCP,EUR,4,63375.0
+sample,Linux,EUR,5,62900.0
+sample,PostgreSQL,EUR,4,60450.0
+sample,Terraform,EUR,4,59125.0
+sample,Power BI,GBP,3,61167.0
+sample,Tableau,GBP,3,61167.0
+sample,PostgreSQL,GBP,4,60375.0
+sample,REST API,GBP,4,57900.0
+sample,Git,GBP,6,56450.0
+sample,Snowflake,GBP,4,55625.0
+sample,Python,GBP,11,54982.0
+sample,Looker,GBP,5,53300.0
+sample,dbt,GBP,4,52750.0
+sample,Airflow,GBP,5,52600.0
+sample,ETL,GBP,6,52500.0
+sample,JavaScript,GBP,4,51375.0
+sample,Docker,GBP,5,50700.0
+sample,CI/CD,GBP,5,50260.0
+sample,TensorFlow,GBP,3,48500.0
+sample,SQL,GBP,7,47357.0
+sample,Machine Learning,GBP,5,46880.0
+sample,Kubernetes,GBP,4,43850.0
+sample,PyTorch,GBP,4,43850.0
+sample,Power BI,USD,4,139500.0
+sample,Excel,USD,4,134625.0
+sample,SQL,USD,9,130944.0
+sample,SQL Server,USD,5,130700.0
+sample,Python,USD,7,128400.0
+sample,Tableau,USD,3,127167.0
+sample,TypeScript,USD,3,125833.0
+sample,REST API,USD,6,125600.0
+sample,C#,USD,3,125367.0
+sample,Spring Boot,USD,3,125367.0
+sample,Azure,USD,3,124667.0
+sample,JavaScript,USD,4,123125.0
+sample,Git,USD,6,120050.0
+sample,Docker,USD,8,117825.0
+sample,Spark,USD,3,116833.0
+sample,PostgreSQL,USD,6,116583.0

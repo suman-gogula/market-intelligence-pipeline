@@ -1,0 +1,4 @@
+# Versions below are the ones the test suite was actually run against (Python 3.12.3).
+pandas==3.0.6
+requests==2.33.1
+python-dotenv==1.2.2

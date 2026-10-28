@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "market-intelligence-pipeline"
+version = "0.1.0"
+description = "Job-market data pipeline: ingest, validate, clean, extract skills, store in SQL, report."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+dependencies = ["pandas>=3.0,<4", "requests>=2.32,<3", "python-dotenv>=1.0,<2"]
+
+[project.optional-dependencies]
+postgres = ["psycopg[binary]>=3.2,<4"]
+
+[project.scripts]
+market-intel = "market_intel.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

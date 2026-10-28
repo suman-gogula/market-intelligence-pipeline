@@ -1,0 +1,6 @@
+data_origin,country,salary_currency,postings_with_salary,avg_annual_min,avg_annual_max,lowest_annual_min,highest_annual_max
+sample,Canada,CAD,8,87200.0,117050.0,58000,169000
+sample,Germany,EUR,17,60118.0,83624.0,35000,128000
+sample,Netherlands,EUR,5,64520.0,88400.0,40000,122000
+sample,United Kingdom,GBP,18,45122.0,61822.0,31000,101000
+sample,United States,USD,18,107089.0,145400.0,72000,198000

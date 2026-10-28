@@ -1,0 +1,45 @@
+# OPTIONAL live ingestion into a hosted PostgreSQL database.
+#
+# Off by default: scheduled runs only happen when you create a repository VARIABLE named
+# ENABLE_SCHEDULED_RUN with the value "true" (Settings > Secrets and variables > Actions > Variables).
+# You can always start it by hand from the Actions tab (workflow_dispatch).
+# Required secret: DATABASE_URL (a PostgreSQL URL). Nothing else is needed.
+# Remotive asks for at most 4 fetches per day, so this runs once a week.
+name: Scheduled live ingestion
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 6 * * 1"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: scheduled-ingestion
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    if: github.event_name == 'workflow_dispatch' || vars.ENABLE_SCHEDULED_RUN == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      DATABASE_URL: ${{ secrets.DATABASE_URL }}
+      HTTP_MAX_RETRIES: "2"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements-postgres.txt
+      - name: Check the database secret exists
+        run: |
+          if [ -z "$DATABASE_URL" ]; then
+            echo "Add a DATABASE_URL repository secret first (see docs/deployment.md)."
+            exit 1
+          fi
+      - run: pip install -r requirements-postgres.txt
+      - run: pip install -e . --no-deps
+      - run: python -m market_intel ingest-remotive --limit 50

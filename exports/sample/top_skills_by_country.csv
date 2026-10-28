@@ -1,0 +1,26 @@
+data_origin,country,skill_rank,skill,postings
+sample,Canada,1,AWS,5
+sample,Canada,2,Azure,4
+sample,Canada,3,CI/CD,4
+sample,Canada,4,Docker,4
+sample,Canada,5,JavaScript,3
+sample,Germany,1,Docker,18
+sample,Germany,2,Git,16
+sample,Germany,3,Python,13
+sample,Germany,4,Kubernetes,12
+sample,Germany,5,JavaScript,10
+sample,Netherlands,1,Python,7
+sample,Netherlands,2,Git,5
+sample,Netherlands,3,Docker,4
+sample,Netherlands,4,Kubernetes,4
+sample,Netherlands,5,AWS,3
+sample,United Kingdom,1,Python,22
+sample,United Kingdom,2,Kubernetes,12
+sample,United Kingdom,3,SQL,11
+sample,United Kingdom,4,AWS,10
+sample,United Kingdom,5,Git,10
+sample,United States,1,SQL,14
+sample,United States,2,Git,13
+sample,United States,3,Docker,12
+sample,United States,4,Python,11
+sample,United States,5,PostgreSQL,9

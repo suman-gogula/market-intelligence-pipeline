@@ -1,0 +1,3 @@
+run_id,source_name,data_origin,status,started_at,finished_at,rows_read,rows_rejected,rows_duplicate_in_batch,rows_inserted,rows_already_stored,ai_enriched,error_message
+20261028T055856Z-5afad932,sample_jobs.csv,sample,succeeded,2026-10-28 05:58:56,2026-10-28 05:58:56,129,10,9,0,110,0,
+20261028T055804Z-5e1eb5d3,sample_jobs.csv,sample,succeeded,2026-10-28 05:58:04,2026-10-28 05:58:04,129,10,9,110,0,0,

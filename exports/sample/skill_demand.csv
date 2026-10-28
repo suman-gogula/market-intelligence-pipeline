@@ -1,0 +1,45 @@
+data_origin,category,skill,postings,total_postings,pct_of_postings
+sample,programming_language,Python,56,110,50.9
+sample,cloud_devops,Docker,46,110,41.8
+sample,cloud_devops,Git,46,110,41.8
+sample,cloud_devops,Kubernetes,38,110,34.5
+sample,programming_language,SQL,35,110,31.8
+sample,cloud_devops,AWS,31,110,28.2
+sample,programming_language,JavaScript,29,110,26.4
+sample,cloud_devops,CI/CD,25,110,22.7
+sample,cloud_devops,Azure,24,110,21.8
+sample,database,PostgreSQL,24,110,21.8
+sample,framework,REST API,24,110,21.8
+sample,machine_learning,Machine Learning,20,110,18.2
+sample,cloud_devops,Linux,17,110,15.5
+sample,data_processing,ETL,16,110,14.5
+sample,cloud_devops,Terraform,16,110,14.5
+sample,programming_language,Java,15,110,13.6
+sample,database,SQL Server,13,110,11.8
+sample,analytics_bi,Looker,12,110,10.9
+sample,analytics_bi,Power BI,12,110,10.9
+sample,analytics_bi,Tableau,12,110,10.9
+sample,data_processing,Airflow,11,110,10.0
+sample,analytics_bi,Excel,11,110,10.0
+sample,machine_learning,NLP,11,110,10.0
+sample,database,Snowflake,11,110,10.0
+sample,programming_language,.NET,10,110,9.1
+sample,cloud_devops,GCP,10,110,9.1
+sample,machine_learning,PyTorch,10,110,9.1
+sample,machine_learning,TensorFlow,10,110,9.1
+sample,data_processing,dbt,10,110,9.1
+sample,programming_language,C#,9,110,8.2
+sample,framework,React,9,110,8.2
+sample,programming_language,C++,8,110,7.3
+sample,framework,Node.js,8,110,7.3
+sample,data_processing,pandas,8,110,7.3
+sample,programming_language,TypeScript,7,110,6.4
+sample,database,BigQuery,6,110,5.5
+sample,framework,FastAPI,6,110,5.5
+sample,data_processing,Spark,6,110,5.5
+sample,framework,Django,5,110,4.5
+sample,framework,Spring Boot,5,110,4.5
+sample,machine_learning,scikit-learn,5,110,4.5
+sample,database,Redis,4,110,3.6
+sample,data_processing,Kafka,3,110,2.7
+sample,data_processing,NumPy,3,110,2.7
